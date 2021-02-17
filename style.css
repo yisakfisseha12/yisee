@@ -1,0 +1,253 @@
+@font-face {
+    src: url(simu.jpg);
+    font-family: Addis;
+  }
+  
+  @media (min-width: 500px) {
+    .container-1 {
+      display: flex;
+    }
+  }
+  .container-1 div {
+    border: 1px #ccc solid;
+    padding: 0%;
+  }
+  .box-1 {
+    flex: 1;
+    order: 1;
+  }
+  .box-2 {
+    flex: 1;
+    order: 2;
+  }
+  
+  .flex01 {
+    background-color: gainsboro;
+  }
+  
+  body {
+    width: 100%;
+    padding: auto;
+    padding-top: 0%;
+    background-color: hsl(202, 85%, 63%);
+  }
+  p {
+    color: rgb(1, 22, 3);
+    text-align: justify;
+  }
+  
+  @media (min-width: 500px) {
+    #mainheader {
+      background-image: url(simu.jpg);
+      height: fit-content;
+      background-size: cover;
+      text-align: center;
+      padding: -10%;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100vh;
+    }
+    #HOME {
+      font-family: addis;
+      color: white;
+      font-size: 50pt;
+      width: auto;
+      text-align: center;
+    }
+  }
+  
+  nav {
+    text-decoration: none;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 30pt;
+    color: white;
+  }
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: orangered;
+}
+.navbar ul li ::after{
+content: "";
+height: 3px;
+width: 0;
+background: #009688;
+position: absolute;
+left: 0;
+bottom: -10px;
+transition: color 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+
+  #pages ul {
+    list-style-type: none;
+    word-spacing: 10pt;
+  }
+  #pages li {
+    display: inline;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+    background-size: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1%;
+  }
+  .button:hover {
+    color: red;
+    background-color: rgb(9, 30, 58);
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-size: 15pt;
+    background-size: 100%;
+    background-color: white;
+    padding: 1%;
+  }
+  .intro {
+    color: black;
+    background-color: rgb(255, 254, 254, 0.3);
+    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  
+  #story00 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20pt;
+  }
+  
+  #story1 {
+    color: #581e04;
+    background-color: gainsboro;
+    background-color: gainsboro;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5%;
+    padding-top: 0%;
+  }
+  
+  #story01 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20pt;
+  }
+  
+  #mainbar {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    background-color: brown;
+    padding: 5%;
+  }
+  #sidebar {
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    background-color: brown;
+    padding: 5%;
+  }
+  
+  #story2 {
+    color: black;
+    background-color: rgb(182, 179, 179);
+    background-color: gainsboro;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5%;
+    padding-top: 0%;
+  }
+  
+  #story02 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20pt;
+  }
+  
+  #story3 {
+    color: black;
+    background-color: rgb(182, 179, 179);
+    background-color: gainsboro;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5%;
+    padding-top: 0%;
+  }
+  
+  #story03 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20pt;
+  }
+  
+  #story4 {
+    color: black;
+    background-color: rgb(182, 179, 179);
+    background-color: gainsboro;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5%;
+    padding-top: 0%;
+  }
+  
+  #story04 {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 20pt;
+  }
+  
+  #story5 {
+    color: black;
+    background-color: rgb(182, 179, 179);
+    background-color: gainsboro;
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    padding: 5%;
+    padding-top: 0%;
+  }
+  @media (max-width: 500px) {
+    #mainheader {
+      /*background-image: url(images/0118.png);background-size: cover; */
+      text-align: center;
+      padding: 1%;
+      /*background-repeat: no-repeat;*/
+      width: auto;
+    }
+    #HOME {
+      font-family: addis;
+      color: #000000;
+      font-size: 30px;
+      width: auto;
+      text-align: center;
+    }
+  }
+  
+  
